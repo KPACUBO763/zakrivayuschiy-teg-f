@@ -1,0 +1,47 @@
+:root.theme-dark {
+    --bg-grad-1: #000;
+    --bg-grad-2: #007F0C;
+    --bg-grad-3: #004306;
+    --accent-color: #00CC14;
+    --font-wght-text: 465;
+    --font-wght-title: 785;
+    --themes-bg: #000;
+    --button-color: #00CC14;
+}
+
+:root.theme-light {
+    --bg-grad-1: #d3d3d3;
+    --bg-grad-2: #e7e7e7;
+    --bg-grad-3: #1a1a1a;
+    --accent-color: #000;
+    --font-wght-text: 400;
+    --font-wght-title: 700;
+    --themes-bg: #FFF;
+    --button-color: #fff;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-grad-1: #d3d3d3;
+        --bg-grad-2: #e7e7e7;
+        --bg-grad-3: #1a1a1a;
+        --accent-color: #000;
+        --font-wght-text: 400;
+        --font-wght-title: 700;
+        --themes-bg: #FFF;
+        --button-color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-grad-1: #000;
+        --bg-grad-2: #007F0C;
+        --bg-grad-3: #004306;
+        --accent-color: #00CC14;
+        --font-wght-text: 465;
+        --font-wght-title: 785;
+        --themes-bg: #000;
+        --button-color: #00CC14;
+    }
+}
