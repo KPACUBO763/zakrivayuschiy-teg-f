@@ -20,19 +20,6 @@
     --button-color: #fff;
 }
 
-@media (prefers-color-scheme: light) {
-    :root {
-        --bg-grad-1: #d3d3d3;
-        --bg-grad-2: #e7e7e7;
-        --bg-grad-3: #1a1a1a;
-        --accent-color: #000;
-        --font-wght-text: 400;
-        --font-wght-title: 700;
-        --themes-bg: #FFF;
-        --button-color: #fff;
-    }
-}
-
 @media (prefers-color-scheme: dark) {
     :root {
         --bg-grad-1: #000;

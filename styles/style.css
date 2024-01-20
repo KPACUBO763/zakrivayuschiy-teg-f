@@ -30,6 +30,7 @@
     );
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   font-variation-settings: "wght" var(--font-wght-text);
 }
 
@@ -277,9 +278,7 @@
   fill: var(--accent-color);
 }
 
-.dialog {
-  position: fixed;
-  inset: 0;
+.dialog[open] {
   padding-block: 0;
   color: var(--accent-color);
   inline-size: clamp(21.313rem, 20.96rem + 1.502vw, 22.313rem);
