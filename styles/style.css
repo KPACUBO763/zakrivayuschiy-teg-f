@@ -156,7 +156,7 @@
 
 @supports (
   (text-stroke: 1px var(--themes-bg)) or
-    (-webkit-text-stroke: 1px var(--themes-bg))
+  (-webkit-text-stroke: 1px var(--themes-bg))
 ) {
   .label {
     text-shadow: none;
