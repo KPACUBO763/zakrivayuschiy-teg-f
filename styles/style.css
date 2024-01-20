@@ -110,7 +110,6 @@
   block-size: 2px;
 }
 
-.theme-menu__button:hover::after,
 .theme-menu__button:focus-visible::after {
   width: 100%;
 }
@@ -281,6 +280,8 @@
 .dialog[open] {
   padding-block: 0;
   color: var(--accent-color);
+  min-inline-size: 341px;
+  max-inline-size: 357px;
   inline-size: clamp(21.313rem, 20.96rem + 1.502vw, 22.313rem);
   background: var(--themes-bg);
 }
